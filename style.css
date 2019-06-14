@@ -7,59 +7,6 @@
   
 }
 
-#Introduction {
- 
-  
-}
-
-#Capturing_Pokemon {
-  
-  
-}
-
-#Breeding_Pokemon {
-  
-  
-}
-
-#Pokemon_Natures {
-  
-  
-}
-
-#Effort_Values {
-  
-  
-  
-}
-
-#Individual_Values {
-  
-  
-}
-
-
-
-#Egg_Moves {
-  
-  
-}
-
-#Evolution {
-  
-  
-}
-
-
-#Mega_Evolution {
-  
-  
-}
-
-
-#Z_Moves {
-  
-}
 
 #navbar {
   height: 100%;
@@ -78,4 +25,10 @@
 .nav-link {
   
   
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
 }

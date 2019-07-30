@@ -1,9 +1,11 @@
 #main-doc {
   margin-left: 320px;
-  padding: 0px 10px;
+  padding: 10px 20px;
+  background-color: orange;
 }
 
 .main-section {
+  
   
 }
 
@@ -15,20 +17,29 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: gray;
+  background-color: blue;
   overflow-x: hidden;
   padding-top: 5px;
+  color: black;
   
   
 }
 
 .nav-link {
   
+  color: black;
+  background-color: blue;
+  display: block;
+  padding: 16px 20px;
   
+}
+
+li a:hover {
+  background-color: yellow;
 }
 
 @media screen and (max-width: 600px) {
   body {
-    background-color: olive;
+    background-color: white;
   }
 }

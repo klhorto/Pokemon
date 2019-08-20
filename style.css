@@ -1,12 +1,27 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 #main-doc {
   margin-left: 320px;
   padding: 10px 20px;
-  background-color: orange;
+  background-color: #4f28ff;
+  
 }
 
-.main-section {
-  
-  
+
+
+ul {
+  list-style-position: inside;
+  list-style-type: upper-roman;
+ 
+}
+
+.Border1 {
+  border-left: 6px solid blue;
+  background-color: #28b0ff; 
+    
 }
 
 
@@ -17,7 +32,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: blue;
+  background-color: #bb28ff;
   overflow-x: hidden;
   padding-top: 5px;
   color: black;
@@ -28,14 +43,14 @@
 .nav-link {
   
   color: black;
-  background-color: blue;
+  background-color: #bb28ff;
   display: block;
   padding: 16px 20px;
   
 }
 
 li a:hover {
-  background-color: yellow;
+  background-color: #9882e0;
 }
 
 @media screen and (max-width: 600px) {
